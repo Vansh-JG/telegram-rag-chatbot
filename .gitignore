@@ -1,7 +1,5 @@
 .DS_Store
 
-
-
 # Root-level storage artifacts
 storage/uploads/
 storage/chroma/
