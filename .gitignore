@@ -1,0 +1,22 @@
+.DS_Store
+
+
+
+# Root-level storage artifacts
+storage/uploads/
+storage/chroma/
+storage/identity.db
+storage/relationships.db
+storage/*.session
+
+# Backend local state
+backend/.env
+backend/.venv/
+backend/__pycache__/
+backend/**/*.pyc
+
+# Frontend local state
+frontend/.env.local
+frontend/node_modules/
+frontend/.next/
+frontend/out/
