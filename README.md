@@ -81,7 +81,11 @@ Notes:
 
 ### Frontend
 
-Create `frontend/.env.local` with:
+`frontend/.env.local` is optional.
+
+By default, the frontend already uses `http://localhost:8000` if no env var is set.
+
+Create `frontend/.env.local` only if you want to override the backend URL:
 
 ```env
 NEXT_PUBLIC_API_URL=http://localhost:8000
